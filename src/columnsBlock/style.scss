@@ -1,0 +1,19 @@
+.wp-block-denisdums-columnsblock {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	grid-gap: 2rem;
+
+	.denisdums-columnsblock-image-wrapper {
+		position: relative;
+
+		.denisdums-remove-image {
+			position: absolute;
+			top: .5rem;
+			right: .5rem;
+		}
+
+		img {
+			max-width: 100%;
+		}
+	}
+}

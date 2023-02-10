@@ -1,0 +1,21 @@
+/*!****************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/columnsBlock/style.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************/
+.wp-block-denisdums-columnsblock {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-gap: 2rem;
+}
+.wp-block-denisdums-columnsblock .denisdums-columnsblock-image-wrapper {
+  position: relative;
+}
+.wp-block-denisdums-columnsblock .denisdums-columnsblock-image-wrapper .denisdums-remove-image {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+.wp-block-denisdums-columnsblock .denisdums-columnsblock-image-wrapper img {
+  max-width: 100%;
+}
+
+/*# sourceMappingURL=style-index.css.map*/
